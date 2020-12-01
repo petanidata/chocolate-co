@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="50dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@mipmap/logo" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:id="@+id/nama"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/brown"
+                android:theme="@style/AppTheme"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:id="@+id/usernameR"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/brown"
+                android:theme="@style/AppTheme"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/email"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/brown"
+                android:theme="@style/AppTheme"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/passwordR"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/brown"
+                android:inputType="textPassword"
+                android:theme="@style/AppTheme"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:id="@+id/alamat"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/brown"
+                android:theme="@style/AppTheme"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No. Handphone"
+                android:id="@+id/noHP"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="@color/brown"
+                android:theme="@style/AppTheme"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/registerR"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:id="@+id/signInR"
+                android:textColor="@color/brown"
+                android:background="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
